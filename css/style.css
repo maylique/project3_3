@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merryweather';
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Merryweather';
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+/* nav design */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+nav a{
+    color: grey;
+}
+
+nav a:hover {
+    color: black
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px 0px 20px;
+}
+
+/* img1 design */
+
+img {
+    height: 70vh;
+}
+
+/* section bild rechts design */
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.firstsection {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    margin-top: 3%;
+}
+
+.textpadding {
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-top: 10px;
+}
+
+/* buttons */
+
+.Download {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Subscribe {
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+/* zweite section */
+
+.secsection {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    margin-top: 3%;
+}
+
+.textcenter {
+    /* margin-left: 40%;
+    margin-right: 10%;
+    padding-top: 10px; */
+    display: flex;
+    justify-content: ;
+    align-items: ;
+}

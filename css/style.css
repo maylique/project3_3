@@ -40,11 +40,18 @@ img {
     height: 70vh;
 }
 
-/* section bild rechts design */
+/* h2 and p  */
 
 h2 {
     font-size: 2.5rem;
 }
+
+p {
+    margin: 10px 0;
+}
+
+/* section bild rechts design */
+
 
 .firstsection {
     display: flex;
@@ -88,10 +95,138 @@ h2 {
 }
 
 .textcenter {
-    /* margin-left: 40%;
+    margin-left: 20%;
     margin-right: 10%;
-    padding-top: 10px; */
+    padding-top: 10px;
+}
+
+.imagecenterleft {
+    padding-left: 20%;
+}
+
+/* dritte section */
+
+.thirdsection {
     display: flex;
-    justify-content: ;
-    align-items: ;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    margin-top: 3%;
+}
+
+.imagecenterright {
+    padding-right: 20%;
+}
+
+/* vierte section */
+
+.fourthsection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+
+.fourthsection img {
+    max-width: 33%;
+    max-height: 33%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.realcenter {
+    text-align: center;
+    margin: 0 20%;
+}
+
+/* fünfte section */
+
+.fifthsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+}
+
+.imagegrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 4vh;
+}
+
+.imagegrid img {
+    max-width: 33%;
+    max-height: 33%;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* sechste section */
+
+.sixthsection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    flex-wrap: wrap;
+}
+
+.member {
+    display: flex;
+    text-align: center;
+    background-color: azure;
+    padding: 30px 50px;
+    margin-top: 7vh;
+}
+
+.member h2 {
+    margin: 20px 0;
+}
+
+.year {
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.member p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.member a {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.footgrey {
+    color: grey;
+}
+
+.black {
+    color: black;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
 }

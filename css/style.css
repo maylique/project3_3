@@ -34,7 +34,7 @@ nav ul {
     margin: 20px 20px 0px 20px;
 }
 
-/* img1 design */
+/* img design */
 
 img {
     height: 50vh;
@@ -55,15 +55,19 @@ p {
 
 .firstsection {
     display: flex;
-    align-items: flex-start;
     justify-content:space-between;
     margin-top: 3%;
 }
 
 .textpadding {
-    margin-left: 10%;
-    margin-right: 50%;
+    margin-left: 8rem;
     padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 30%;
+
 }
 
 /* buttons */
@@ -74,6 +78,7 @@ p {
     border-radius: 10px;
     padding: 10px;
 }
+
 .Subscribe {
     border: 1px solid black;
     color: black;
@@ -83,6 +88,7 @@ p {
 
 .buttons {
     margin-top: 20px;
+    display: flex;
 }
 
 /* zweite section */
@@ -90,7 +96,7 @@ p {
 .secsection {
     display: flex;
     align-items: flex-start;
-    justify-content:space-evenly;
+    justify-content:space-between;
     margin-top: 3%;
 }
 
@@ -98,10 +104,15 @@ p {
     margin-left: 20%;
     margin-right: 10%;
     padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 30%;
 }
 
 .imagecenterleft {
-    padding-left: 20%;
+    margin-left: 8rem;
 }
 
 /* dritte section */
@@ -114,7 +125,7 @@ p {
 }
 
 .imagecenterright {
-    padding-right: 20%;
+    padding-left: 20%;
 }
 
 /* vierte section */
@@ -129,13 +140,13 @@ p {
 
 .imagecenter {
     display: flex;
+    justify-content: space-around;
     gap: 20px;
-    justify-content: center;
 }
 
 .fourthsection img {
-    max-width: 33%;
-    max-height: 33%;
+    max-width: 30%;
+    max-height: 30%;
     height: fit-content;
     width: fit-content;
 }

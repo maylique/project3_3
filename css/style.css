@@ -37,7 +37,7 @@ nav ul {
 /* img1 design */
 
 img {
-    height: 70vh;
+    height: 50vh;
 }
 
 /* h2 and p  */
@@ -127,11 +127,21 @@ p {
     flex-wrap: wrap;
 }
 
+.imagecenter {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 .fourthsection img {
     max-width: 33%;
     max-height: 33%;
     height: fit-content;
     width: fit-content;
+}
+
+.fourthsection img:hover {
+    box-shadow: 0 0 20px black;
 }
 
 .realcenter {
@@ -162,6 +172,9 @@ p {
     max-height: 33%;
     height: fit-content;
     width: fit-content;
+}
+.imagegrid img:hover {
+    box-shadow: 0 0 20px black;
 }
 
 /* sechste section */
